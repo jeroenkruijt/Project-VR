@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-using OVRTouchSample;
 using System;
 
 public class PlayerInput : MonoBehaviour
@@ -63,7 +62,7 @@ public class PlayerInput : MonoBehaviour
 
     private void GetPlayerInput()
     {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
+        /*if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
             accelerating = true;
         }
@@ -97,7 +96,7 @@ public class PlayerInput : MonoBehaviour
         if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch))
         {
             turningRight = false;
-        }
+        }*/
     }
 }
 
