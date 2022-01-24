@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8213580197997724804}
   - component: {fileID: 8213580197997724805}
   - component: {fileID: 8213580197997724806}
-  - component: {fileID: 8213580197997724807}
+  - component: {fileID: 2099444953582033384}
   m_Layer: 0
   m_Name: NPC2
   m_TagString: Untagged
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8213580197997724800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e2e12ab3b3ca94195c6e95d2d3bc7b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a280a62f797f2e438841ed292e80db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
@@ -114,9 +114,9 @@ MonoBehaviour:
   stopDistance: 2.5
   rotationSpeed: 120
   minSpeed: 1
-  maxSpeed: 4
+  maxSpeed: 3
   movementSpeed: 2
---- !u!114 &8213580197997724807
+--- !u!114 &2099444953582033384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8213580197997724800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21ff9dfbe27b7bd43bf9f6fb61170638, type: 3}
+  m_Script: {fileID: 11500000, guid: 243a6e1cc4d69f544b15df920e18f31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentWaypoint: {fileID: 0}
