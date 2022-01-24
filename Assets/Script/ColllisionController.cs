@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColllisionController : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class ColllisionController : MonoBehaviour
         if (other.collider.GetType() == typeof(BoxCollider))
         {
             Debug.Log("gameover");
-            
+            SceneManager.LoadScene("AccidentScreen");
+
         }
         if (other.collider.GetType() == typeof(SphereCollider))
         {
