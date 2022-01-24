@@ -33,10 +33,4 @@ public class CarController : MonoBehaviour
             wheel.wheelDampingRate = inputManager.wheelDampening;
         }
     }
-
-
-   public void HitZombie()
-    {
-        source.PlayOneShot(clip);
-    }
 }
