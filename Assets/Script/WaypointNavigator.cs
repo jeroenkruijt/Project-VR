@@ -14,7 +14,7 @@ public class WaypointNavigator : MonoBehaviour
     }
     private void Start()
     {
-        direction = Mathf.RoundToInt(Random.Range(0f, 1f));
+        direction = 0;
         controller.SetDestination(currentWaypoint.GetPosition());
     }
     private void Update()

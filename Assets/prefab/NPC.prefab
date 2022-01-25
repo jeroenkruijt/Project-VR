@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6465556285310224043}
   - component: {fileID: 1357735578455681084}
   - component: {fileID: 3412060242669312360}
-  - component: {fileID: -1233362780064078123}
   - component: {fileID: 2591367136948075805}
   m_Layer: 0
   m_Name: NPC
@@ -97,19 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.8, z: 0.8}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-1233362780064078123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9197865137584976640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 138cee55be25c1c4cb61404034329b61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
 --- !u!135 &2591367136948075805
 SphereCollider:
   m_ObjectHideFlags: 0
