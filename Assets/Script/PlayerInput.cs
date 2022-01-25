@@ -83,19 +83,19 @@ public class PlayerInput : MonoBehaviour
         targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float primaryButtonValue);
         if (primaryButtonValue > 0.1f)
         {
-            Debug.Log("pressing primary button");
+           
             accelerating = true;
         }
         if (primaryButtonValue < 0.1f)
         {
-            Debug.Log("let go of accelerating");
+          
             accelerating = false;
         }
 
         targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue);
         if (gripValue > 0.1f)
         {
-            Debug.Log("trigger pressed " + gripValue);
+           
             breaking = true;
         }
         if(gripValue < 0.1f)
@@ -106,7 +106,7 @@ public class PlayerInput : MonoBehaviour
         targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue);
         if (primary2DAxisValue != Vector2.left)
         {
-            Debug.Log("primary axis" + primary2DAxisValue);
+            /*Debug.Log("primary axis" + primary2DAxisValue);*/
         }
 
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool left);

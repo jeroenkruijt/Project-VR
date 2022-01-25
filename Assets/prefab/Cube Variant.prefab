@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730666984}
   - component: {fileID: 730666985}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: XR Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 1180585440}
   - component: {fileID: 1180585439}
   - component: {fileID: 1180585438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400369164}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 1423120195}
   - component: {fileID: 1423120194}
   - component: {fileID: 1423120193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 1502282691}
   - component: {fileID: 1502282690}
   - component: {fileID: 1502282689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,9 +1284,29 @@ PrefabInstance:
       propertyPath: throttleWheels.Array.data[3]
       value: 
       objectReference: {fileID: 6865126699198355648}
+    - target: {fileID: 2346682658019972193, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346682658471256679, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346682658591024654, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346682658860253596, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2346682659190664228, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
       propertyPath: m_Name
       value: Cube Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346682659190664228, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2346682659190664232, guid: ef3087cc0b696b240a36334acb992fd4, type: 3}
       propertyPath: m_RootOrder
