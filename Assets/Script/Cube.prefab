@@ -463,6 +463,7 @@ GameObject:
   - component: {fileID: 2346682659190664233}
   - component: {fileID: 1629408287697918646}
   - component: {fileID: 2035747877402788698}
+  - component: {fileID: 5465533948267038647}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -601,3 +602,16 @@ MonoBehaviour:
   - {fileID: 2346682658591024656}
   strengthCoefficient: 200000
   maxTurn: 20
+--- !u!114 &5465533948267038647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2346682659190664228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5a4343626f4194d91f69a76031ff20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warningstring: Slow Down
