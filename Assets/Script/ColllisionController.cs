@@ -17,16 +17,20 @@ public class ColllisionController : MonoBehaviour
     {
         colcount++;
         Debug.Log(other.collider.GetType());
-        if (other.collider.GetType() == typeof(BoxCollider))
-        {
+        
             Debug.Log("gameover");
             SceneManager.LoadScene("AccidentScreen");
 
-        }
-        if (other.collider.GetType() == typeof(SphereCollider))
+        
+        /*if (other.collider.GetType() == typeof(SphereCollider))
         {
-            //warning.text = warningstring;
+            warning.text = warningstring;
             Debug.Log(colcount);
-        }
+        }*/
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("slightcollision");
+        //warning.text = warningstring;
     }
 }

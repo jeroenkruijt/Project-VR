@@ -21,7 +21,7 @@ public class NPCSpawner : MonoBehaviour
             obj.GetComponent<WaypointNavigator>().currentWaypoint = child.GetComponent<Waypoint>();
             obj.transform.position = child.position;
 
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(0);
 
             count++;
         }
