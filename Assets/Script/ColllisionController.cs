@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class ColllisionController : MonoBehaviour
 {
-   // static Text warning;//
-    public string warningstring;
+    public Text warning;
+    [TextArea(3, 10)]
+    public string[] warningstring;
     int colcount = 0;
     private void Start()
     {
-       // warning = GameObject.Find("Text").GetComponent<Text>();//
     }
     private void OnCollisionEnter(Collision other)
     {
@@ -22,15 +22,10 @@ public class ColllisionController : MonoBehaviour
             SceneManager.LoadScene("AccidentScreen");
 
         
-        /*if (other.collider.GetType() == typeof(SphereCollider))
-        {
-            warning.text = warningstring;
-            Debug.Log(colcount);
-        }*/
     }
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("slightcollision");
-        //warning.text = warningstring;
+        warning.text = warningstring[Random.Range(0, warningstring.Length)];
     }
 }
