@@ -30,7 +30,9 @@ public class NavController : MonoBehaviour
             {
                 reachedDestination = false;
                 Quaternion targetRotation = Quaternion.LookRotation(destinationDirection);
+                
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+                
                 transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
             }
             else
