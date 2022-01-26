@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ColllisionController : MonoBehaviour
 {
-    public Text warning;
+    /*public static Text warning;*/
     [TextArea(3, 10)]
     public string[] warningstring;
     int colcount = 0;
@@ -26,6 +26,8 @@ public class ColllisionController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("slightcollision");
+        /*
         warning.text = warningstring[Random.Range(0, warningstring.Length)];
+    */
     }
 }
